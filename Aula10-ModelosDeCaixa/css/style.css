@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+
+    --card-background: #f3f3f3;
+    --primary-color: #00669f;
+}
+
+.desconto {
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 38px;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 400;
+    }
+
+.boxheroes{
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 101px;
+    font-size: 40px;
+    padding: 28px 28px 26px 28px;
+}
+
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 86px;
+    flex-wrap: wrap;
+}
+.card {
+    width: 374px;
+    height: 597px;
+    border-radius: 16px 16px 0px 0px;
+    background-color: var(--card-background);
+    position: relative;
+    flex-direction: column;
+    
+}
+
+.card__background-img {
+    width: 100%;
+    height: 217px;
+    position: relative;
+}
+
+.background-batman {
+    background-repeat: no-repeat;
+    background-image: url(/img/backgroundbatma.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.card__icon {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.card__user {
+    position: absolute;
+    top: 130px;
+    left: 110px;
+    
+}
+
+.card__user img {
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.75);
+}
+
+
+.card__content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 70px;
+    
+}
+
+.card__desc {
+    
+    text-align: center;
+}
+
+
+.card__button {
+    margin: 20px;
+    width: 145.34px;
+    height: 54.76px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    text-decoration: none;
+}
+
+
+
+.background-arlequina {
+    background-repeat: no-repeat;
+    background-image: url(/img/backgroundarlequina.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+footer {
+background-color: #00669F;
+    width: 100%;
+    height: 51px;
+    color: white;
+    font-size: 16px;
+    padding: 28px 16px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
