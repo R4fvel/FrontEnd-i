@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+
+    --primary-color: #222222;
+}
+
+header {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: space-between;
+
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.logo{
+    
+    height: 100%;
+}
+
+
+nav {
+    
+    
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 50px 0px 50px;
+}
+
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+
+
+.pizza {
+    color: #39B24A;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.e {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Front {
+    color: #FC200C;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.liststyle {
+    font-size: 16px;
+    color: #FFFFFF;
+    list-style-type: none;
+    display: flex;
+}    
+    
+.liststyle li {
+    padding: 5px;
+    margin-right: 10px;
+}
+.estilolink {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+
+.card {
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.background-delivery {
+    background-image: url(/img/delivery.jpg);
+    width: 490px;
+    height: 350px;
+    
+    border-radius: 5px;
+}
+
+.enviogratis {
+color: #FC200C;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+text-align: center;
+}
+
+.comprando {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card__content {
+    text-align: center;
+}
+
+
+.card__title {
+    color: #FC200C;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    
+}
+
+
+.card__topfive {
+    font-size: 20px;
+    color: #222222;
+    font-weight: 700;
+    
+
+}
+
+
+.card__list {
+    list-style-type: decimal;
+    font-size: 16px;
+    font-weight: 700;
+    color: #222222;
+    margin-top: 15px;
+    
+    
+}
+
+.card__imgcaindo {
+    width: 92px;
+    height: 129px;
+   
+}
+
+.card__contentoto {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 35px 19px;
+    
+    flex-wrap: wrap;
+}
+
+
+.frango {
+    margin: 10px;
+}
+
+.hawaiana {
+    margin: 10px;
+}
+
+.bolonhesa {
+    margin: 10px;
+}
+
+.Fugazzeta {
+    margin: 10px;
+}
+
+.calabresa {
+    margin: 10px;
+}
+
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    
+    
+}
+
+.footerlist {
+    list-style-type: none;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.estilolinkf {
+    
+    
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.logofooter{
+ margin-right: 10px;
+}
